@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Ituah - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Daniel Ituah</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#designs" class="nav-link">Designs</a> 
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Daniel Ituah</span>
+                    </h1>
+                    <p class="hero-subtitle">Computer Science Student & Aspiring Software Engineer</p>
+                    <p class="hero-description">
+                        Passionate about creating innovative web solutions and building scalable applications. 
+                        Currently pursuing my degree in Computer Science while gaining hands-on experience in full-stack development.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                
+                    <div class="profile-card">
+                        <div class="profile-img">
+                            
+                            <img src="./Screen Shot 2025-05-24 at 4.23.20 PM.png" alt="Digital Design - Please I'm a Star">
+                            
+                        </div>
+                        <div class="floating-elements">
+                            <div class="float-element" style="--delay: 0s">💻</div>
+                            <div class="float-element" style="--delay: 1s">🚀</div>
+                            <div class="float-element" style="--delay: 2s">⚡</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a dedicated Computer Science student with a passion for software engineering and web development. 
+                        My journey in tech began with curiosity about how applications work, and has evolved into a deep 
+                        commitment to creating efficient, user-friendly solutions.
+                    </p>
+                    <p>
+                        Currently pursuing my degree while actively building projects that demonstrate my growing expertise 
+                        in full-stack development. I'm particularly interested in modern web technologies, clean code practices, 
+                        and creating applications that make a positive impact.
+                    </p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Years Learning</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">∞</span>
+                            <span class="stat-label">Passion for Code</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-skills">
+                    <h3>What I Do</h3>
+                    <div class="skill-categories">
+                        <div class="skill-category">
+                            <i class="fas fa-code"></i>
+                            <h4>Frontend Development</h4>
+                            <p>Creating responsive and interactive user interfaces using modern frameworks and libraries.</p>
+                        </div>
+                        <div class="skill-category">
+                            <i class="fas fa-server"></i>
+                            <h4>Backend Development</h4>
+                            <p>Building robust server-side applications and APIs with various programming languages.</p>
+                        </div>
+                        <div class="skill-category">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h4>Responsive Design</h4>
+                            <p>Ensuring seamless user experiences across all devices and screen sizes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">HTML5</span>
+                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Vue.js</span>
+                        <span class="skill-item">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">Express.js</span>
+                        <span class="skill-item">Django</span>
+                        <span class="skill-item">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Database & Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Firebase</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Other</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Data Structures</span>
+                        <span class="skill-item">Algorithms</span>
+                        <span class="skill-item">Agile</span>
+                        <span class="skill-item">Testing</span>
+                        <span class="skill-item">CI/CD</span>
+                        <span class="skill-item">Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack e-commerce application with user authentication, payment integration, and admin dashboard.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Stripe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>Collaborative task management tool with real-time updates, drag-and-drop functionality, and team collaboration features.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>Vuex</span>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Data Visualization Dashboard</h3>
+                        <p>Interactive dashboard for data analysis with dynamic charts, filters, and real-time data processing.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>D3.js</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Digital Designs Section --> 
+    <section id="designs" class="designs">
+        <div class="container">
+            <h2 class="section-title">Digital Designs</h2>
+            <div class="designs-grid">
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="./Screen Shot 2025-05-26 at 8.20.29 PM.png" alt="Digital Design - Please I'm a Star">
+                        <div class="design-overlay">
+                            <a href="image1" target="_blank" class="design-link"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="design-content">
+                        <h3>Star Artwork</h3>
+                        <p>A compelling digital piece capturing a unique portrait with a bold statement.</p>
+                    </div>
+                </div>
+                
+                 <!-- Add more design cards here as needed -->
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="./Pink_Yellow_Star_Y2k_Style_Streetwear_Logo-removebg-preview.png" alt="Digital Design - Please I'm a Star"> 
+                         <div class="design-placeholder">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="design-overlay">
+                            <a href="#" target="_blank" class="design-link"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="design-content">
+                        <h3>Abstract Creation</h3>
+                        <p>Exploring forms and colors in a digital medium.</p>
+                    </div>
+                </div>
+
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="./Screen Shot 2025-05-24 at 4.18.57 PM.png" alt="Digital Design - Please I'm a Star"> 
+                         <div class="design-placeholder">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="design-overlay">
+                            <a href="#" target="_blank" class="design-link"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="design-content">
+                        <h3>Abstract Creation</h3>
+                        <p>Exploring forms and colors in a digital medium.</p>
+                    </div>
+                </div>
+
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="./f90f3da7a15333eb674746984a6974f2.jpg" alt="Digital Design - Please I'm a Star"> 
+                         <div class="design-placeholder">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="design-overlay">
+                            <a href="#" target="_blank" class="design-link"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="design-content">
+                        <h3>Abstract Creation</h3>
+                        <p>Exploring forms and colors in a digital medium.</p>
+                    </div>
+                </div>
+
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="./Screen Shot 2025-05-26 at 3.16.22 PM.png" alt="Digital Design - Please I'm a Star"> 
+                         <div class="design-placeholder">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="design-overlay">
+                            <a href="#" target="_blank" class="design-link"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="design-content">
+                        <h3>Abstract Creation</h3>
+                        <p>Exploring forms and colors in a digital medium.</p>
+                    </div>
+                </div>
+
+
+
+                <div class="design-card">
+                     <div class="design-image">
+                        <img src="./Screen Shot 2025-05-24 at 4.21.08 PM.png" alt="Digital Design - Please I'm a Star"> 
+                        <div class="design-placeholder">
+                            <i class="fas fa-vector-square"></i>
+                        </div>
+                        <div class="design-overlay">
+                            <a href="#" target="_blank" class="design-link"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="design-content">
+                        <h3>Logo Concept</h3>
+                        <p>Minimalist logo design for a modern brand.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm always interested in new opportunities and collaborations. Whether you have a project in mind or just want to chat about technology, feel free to reach out!</p>
+                    <div class="contact-methods">
+                        <a href="mailto:daniel.ituah@email.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>daniel.ituah@email.com</span>
+                        </a>
+                        <a href="tel:+1234567890" class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (234) 567-8900</span>
+                        </a>
+                        <a href="#" class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Available for Remote Work</span>
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Daniel Ituah. All rights reserved.</p>
+                <p>Built with ❤️ using HTML, CSS & JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
